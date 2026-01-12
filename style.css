@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, sans-serif;
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 18px;
+  line-height: 1.6;
+}
+header{
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 22px;
+}
+h1{ margin: 0; font-size: 40px; }
+h3{ margin: 8px 0 0; font-weight: normal; }
+section{
+  margin: 26px 0;
+  padding: 18px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+ul{ margin: 10px 0 0 18px; }
+a{ text-decoration: none; }
+a:hover{ text-decoration: underline; }
+.small{ color: #444; }
+.badge{
+  display:inline-block;
+  padding:6px 10px;
+  border:1px solid #ddd;
+  border-radius: 999px;
+  margin: 6px 6px 0 0;
+  font-size: 14px;
+}

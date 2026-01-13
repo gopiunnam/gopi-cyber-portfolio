@@ -123,3 +123,27 @@ body{
   .hero{ grid-template-columns: 1fr; }
   .avatar{ width: 180px; height: 180px; }
 }
+/* ===== Spacing Improvements ===== */
+
+.section {
+  margin-top: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+

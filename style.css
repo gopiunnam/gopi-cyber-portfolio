@@ -223,13 +223,13 @@ section {
 .cert-links a:hover {
   text-decoration: underline;
 }
-/* Certifications pill style (Shrutika-like) */
 .cert-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 12px;
+  gap: 24px;   /* 👈 MORE SPACE BETWEEN CERTS */
+  margin-top: 16px;
 }
+
 
 .cert-pill {
   font-size: 13px;

@@ -7,6 +7,7 @@ body{
   color:#111;
 }
 
+/* ===== TOP NAV ===== */
 .topbar{
   background:#1f2328;
   color:#fff;
@@ -18,7 +19,7 @@ body{
 .topbar .wrap{
   max-width: 1100px;
   margin: 0 auto;
-  padding: 16px 20px;
+  padding: 14px 20px;
   display:flex;
   align-items:center;
   justify-content: space-between;
@@ -37,18 +38,20 @@ body{
 }
 .topbar nav a:hover{ color:#fff; }
 
+/* ===== LAYOUT ===== */
 .container{
   max-width:1100px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 24px 20px;
 }
 
+/* ===== HERO ===== */
 .hero{
   display:grid;
   grid-template-columns: 260px 1fr;
-  gap: 34px;
+  gap: 28px;
   align-items:center;
-  padding: 30px;
+  padding: 24px;
   background:#fff;
   border:1px solid #eee;
   border-radius: 18px;
@@ -64,22 +67,23 @@ body{
 }
 
 .hero h1{
-  margin:0 0 10px 0;
-  font-size: 40px;
+  margin:0 0 8px 0;
+  font-size: 38px;
   line-height:1.15;
 }
 
 .hero p{
-  margin: 10px 0;
+  margin: 8px 0;
   color:#333;
-  line-height:1.7;
+  line-height:1.6;
 }
 
+/* Buttons */
 .btn{
   display:inline-flex;
   align-items:center;
   gap:10px;
-  margin-top: 14px;
+  margin-top: 12px;
   padding: 10px 14px;
   border-radius: 10px;
   border: 1px solid #22c55e;
@@ -87,260 +91,7 @@ body{
   background:#fff;
   text-decoration:none;
   font-weight:600;
-}
-
-.section{
-  margin-top: 22px;
-  background:#fff;
-  border:1px solid #eee;
-  border-radius: 18px;
-  padding: 24px;
-}
-
-.section h2{
-  margin:0 0 12px 0;
-  font-size: 28px;
-}
-
-.card{
-  background:#fff;
-  border:1px solid #eee;
-  border-radius: 14px;
-  padding: 18px;
-  margin-top: 14px;
-}
-
-.badge{
-  display:inline-block;
-  padding:6px 12px;
-  border:1px solid #ddd;
-  border-radius: 999px;
-  margin: 6px 6px 0 0;
-  font-size: 14px;
-}
-
-@media(max-width: 900px){
-  .hero{ grid-template-columns: 1fr; }
-  .avatar{ width: 180px; height: 180px; }
-}
-/* ===== Spacing Improvements ===== */
-
-.section {
-  margin-top: 40px;
-}
-
-.section h2 {
-  margin-bottom: 20px;
-}
-
-.card {
-  margin-top: 20px;
-}
-
-ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/* ===== Certification Card Image Fix ===== */
-.cert-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
-}
-
-.cert-card img{
-  width: 100%;
-  height: 180px;        /* makes it same size */
-  object-fit: cover;    /* crops nicely */
-  border-radius: 12px;
-  display: block;
-}
-
-.cert-card h4{
-  margin: 12px 0 0;
-}
-/* ============================= */
-/* CERTIFICATIONS – SIZE & GRID */
-/* ============================= */
-
-#certifications {
-  padding: 40px 0;
-}
-
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
-}
-
-.cert-card {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-  text-align: center;
-}
-
-/* 🔽 IMAGE SIZE CONTROL (IMPORTANT) */
-.cert-card img {
-  max-width: 220px;   /* ← make smaller like Shrutika */
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Title below image */
-.cert-card h4 {
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 10px;
-}
-
-/* Reduce large gaps between sections */
-section {
-  margin-bottom: 40px;
-}
-/* Certifications links styling */
-.cert-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 10px;
-}
-
-.cert-links a {
-  font-size: 14px;
-  color: #2563eb;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.cert-links a:hover {
-  text-decoration: underline;
-}
-.cert-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;   /* 👈 MORE SPACE BETWEEN CERTS */
-  margin-top: 16px;
-}
-
-
-.cert-pill {
-  font-size: 13px;
-  padding: 6px 12px;
-  background: #f1f5f9;
-  border-radius: 999px;
-  color: #111827;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
-.badge-row{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-/* Reduce spacing between sub-headings and content */
-#skills h3,
-#skills h4 {
-  margin-bottom: 6px;   /* was large, now tight */
-  margin-top: 18px;
-}
-
-/* Reduce spacing under badge rows */
-#skills .badge,
-#skills .pill,
-#skills span {
-  margin-top: 4px;
-}
-
-/* Reduce list spacing */
-#skills ul {
-  margin-top: 6px;
-  margin-bottom: 10px;
-}
-
-/* Reduce spacing between sections inside Skills */
-#skills .section-block {
-  margin-bottom: 16px;
-}
-
-
-.cert-pill:hover {
-  background: #e5e7eb;
-  transform: translateY(-1px);
-}
-/* GLOBAL: Reduce spacing between headings and content across site */
-
-/* Section cards spacing */
-.section {
-  padding: 18px 20px !important;   /* reduces inside padding */
-  margin-bottom: 18px !important;  /* reduces gap between sections */
-}
-
-/* Main section titles: About, Skills, Experience, Projects, Blog, Certs, Contact */
-.section h2 {
-  margin: 0 0 10px !important;  /* closer to content */
-  line-height: 1.2;
-}
-
-/* Sub-headings inside sections */
-.section h3,
-.section h4 {
-  margin: 14px 0 6px !important;  /* reduce top + bottom gap */
-  line-height: 1.25;
-}
-
-/* Paragraph spacing */
-.section p {
-  margin: 6px 0 10px !important;
-  line-height: 1.6;
-}
-
-/* List spacing */
-.section ul {
-  margin: 6px 0 10px !important;
-  padding-left: 20px;
-}
-
-.section li {
-  margin: 4px 0 !important;
-}
-.connect{
-  text-align: center;
-}
-
-.connect-title{
-  font-size: 34px;
-  font-weight: 800;
-  margin-bottom: 6px;
-}
-
-.connect-subtitle{
-  font-size: 14px;
-  opacity: 0.85;
-  margin-bottom: 16px;
-}
-
-.connect-buttons{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.btn{
-  padding: 10px 14px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
+  font-size:14px;
 }
 
 .btn-outline{
@@ -349,109 +100,88 @@ section {
   color: #0f172a;
 }
 
-.site-footer{
+/* ===== SECTIONS ===== */
+.section{
   margin-top: 18px;
-  background: #111827;
-  color: white;
-  padding: 18px 12px;
+  background:#fff;
+  border:1px solid #eee;
+  border-radius: 18px;
+  padding: 18px 20px;
 }
 
-.footer-inner{
-  text-align: center;
-  font-size: 14px;
-  opacity: 0.9;
-}
-.skills-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 40px;
-  margin-top: 20px;
+.section h2{
+  margin:0 0 10px 0;
+  font-size: 28px;
+  line-height:1.2;
 }
 
-.skills-column h3{
-  margin-bottom: 12px;
-  font-size: 18px;
+.section h3{
+  margin: 12px 0 6px;
+  font-size: 16px;
+  font-weight: 800;
 }
 
-.skill-pill{
-  display: inline-block;
-  background: #6b7280;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 12px;
+.section p{
+  margin: 6px 0 10px;
+  line-height: 1.55;
+}
+
+.section ul{
+  margin: 6px 0 10px;
+  padding-left: 18px;
+}
+
+.section li{
+  margin: 4px 0;
+}
+
+/* ===== CARDS (Experience / Projects etc.) ===== */
+.card{
+  background:#fff;
+  border:1px solid #eee;
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 12px;
+}
+
+/* ===== CERTIFICATIONS (PILLS like your screenshot) ===== */
+.cert-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 14px;            /* ✅ space between certifications */
+  margin-top: 10px;
+}
+
+.cert-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
   font-size: 13px;
-  font-weight: 500;
-  margin: 4px 6px 4px 0;
+  padding: 6px 12px;
+  background: #f1f5f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
-.skills-grid{
-  display:grid;
-  grid-template-columns:repeat(3, minmax(0, 1fr));
-  gap:40px;
-  margin-top:18px;
-}
-
-@media (max-width: 980px){
-  .skills-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 640px){
-  .skills-grid{ grid-template-columns:1fr; }
+.cert-pill:hover{
+  background:#e5e7eb;
+  transform: translateY(-1px);
 }
 
-.skills-column h3{
-  margin: 0 0 12px 0;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.skill-pill{
-  display:inline-block;
-  background:#6b7280;
-  color:#fff;
-  padding:6px 12px;
-  border-radius:999px;
-  font-size:13px;
-  font-weight:600;
-  line-height:1;
-  margin:6px 8px 0 0;
-}
-.skills-simple{
-  display:grid;
-  grid-template-columns:repeat(2, 1fr);
-  gap:30px;
-  margin-top:15px;
-}
-
-@media (max-width: 768px){
-  .skills-simple{
-    grid-template-columns:1fr;
-  }
-}
-
-.skill-group h3{
-  margin-bottom:10px;
-  font-size:17px;
-  font-weight:700;
-}
-
-.skill-pill{
-  display:inline-block;
-  background:#6b7280;
-  color:#fff;
-  padding:6px 12px;
-  border-radius:999px;
-  font-size:13px;
-  margin:6px 6px 0 0;
-}
+/* ===== SKILLS (simple + clean) ===== */
 .skills-2col{
   display:grid;
   grid-template-columns:repeat(2, minmax(0,1fr));
-  gap:22px 28px;
-  margin-top:14px;
+  gap:16px 26px;
+  margin-top:12px;
 }
 
 .skills-block h3{
-  margin:0 0 8px;
-  font-size:16px;
+  margin:0 0 6px;
+  font-size:15px;
   font-weight:800;
 }
 
@@ -465,6 +195,49 @@ section {
   line-height:1.5;
   color:#111827;
   font-size:14px;
+}
+
+/* ===== CONNECT + FOOTER ===== */
+.connect{
+  text-align: center;
+}
+
+.connect-title{
+  font-size: 30px;
+  font-weight: 800;
+  margin: 4px 0 6px;
+}
+
+.connect-subtitle{
+  font-size: 14px;
+  opacity: 0.85;
+  margin: 0 0 14px;
+}
+
+.connect-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.site-footer{
+  margin-top: 18px;
+  background: #111827;
+  color: white;
+  padding: 16px 12px;
+}
+
+.footer-inner{
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width: 900px){
+  .hero{ grid-template-columns: 1fr; }
+  .avatar{ width: 180px; height: 180px; }
 }
 
 @media (max-width: 768px){

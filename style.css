@@ -442,3 +442,31 @@ section {
   font-size:13px;
   margin:6px 6px 0 0;
 }
+.skills-2col{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:22px 28px;
+  margin-top:14px;
+}
+
+.skills-block h3{
+  margin:0 0 8px;
+  font-size:16px;
+  font-weight:800;
+}
+
+.skills-block ul{
+  margin:0;
+  padding-left:18px;
+}
+
+.skills-block li{
+  margin:6px 0;
+  line-height:1.5;
+  color:#111827;
+  font-size:14px;
+}
+
+@media (max-width: 768px){
+  .skills-2col{ grid-template-columns:1fr; }
+}

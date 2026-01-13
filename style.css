@@ -164,4 +164,45 @@ p {
 .cert-card h4{
   margin: 12px 0 0;
 }
+/* ============================= */
+/* CERTIFICATIONS – SIZE & GRID */
+/* ============================= */
+
+#certifications {
+  padding: 40px 0;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.cert-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+/* 🔽 IMAGE SIZE CONTROL (IMPORTANT) */
+.cert-card img {
+  max-width: 220px;   /* ← make smaller like Shrutika */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Title below image */
+.cert-card h4 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Reduce large gaps between sections */
+section {
+  margin-bottom: 40px;
+}
 

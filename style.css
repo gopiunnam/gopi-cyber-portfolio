@@ -294,4 +294,35 @@ body{
 .skills-block li{
   margin: 4px 0;
 }
+/* ===== GLOBAL TIGHT SPACING (whole portfolio) ===== */
+
+.section{
+  padding: 14px 18px !important;   /* less inside padding */
+  margin-top: 14px !important;     /* less gap between sections */
+}
+
+.section h2{
+  margin: 0 0 8px 0 !important;    /* title closer to content */
+  line-height: 1.15;
+}
+
+.section h3,
+.section h4{
+  margin: 10px 0 6px 0 !important; /* sub-headings closer */
+  line-height: 1.2;
+}
+
+.section p{
+  margin: 6px 0 !important;        /* reduce paragraph gaps */
+  line-height: 1.55;
+}
+
+.section ul{
+  margin: 6px 0 !important;        /* reduce list gaps */
+  padding-left: 18px;
+}
+
+.section li{
+  margin: 4px 0 !important;
+}
 

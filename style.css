@@ -414,4 +414,31 @@ section {
   line-height:1;
   margin:6px 8px 0 0;
 }
+.skills-simple{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:30px;
+  margin-top:15px;
+}
 
+@media (max-width: 768px){
+  .skills-simple{
+    grid-template-columns:1fr;
+  }
+}
+
+.skill-group h3{
+  margin-bottom:10px;
+  font-size:17px;
+  font-weight:700;
+}
+
+.skill-pill{
+  display:inline-block;
+  background:#6b7280;
+  color:#fff;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:13px;
+  margin:6px 6px 0 0;
+}

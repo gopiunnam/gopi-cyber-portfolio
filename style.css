@@ -276,4 +276,40 @@ section {
   background: #e5e7eb;
   transform: translateY(-1px);
 }
+/* GLOBAL: Reduce spacing between headings and content across site */
+
+/* Section cards spacing */
+.section {
+  padding: 18px 20px !important;   /* reduces inside padding */
+  margin-bottom: 18px !important;  /* reduces gap between sections */
+}
+
+/* Main section titles: About, Skills, Experience, Projects, Blog, Certs, Contact */
+.section h2 {
+  margin: 0 0 10px !important;  /* closer to content */
+  line-height: 1.2;
+}
+
+/* Sub-headings inside sections */
+.section h3,
+.section h4 {
+  margin: 14px 0 6px !important;  /* reduce top + bottom gap */
+  line-height: 1.25;
+}
+
+/* Paragraph spacing */
+.section p {
+  margin: 6px 0 10px !important;
+  line-height: 1.6;
+}
+
+/* List spacing */
+.section ul {
+  margin: 6px 0 10px !important;
+  padding-left: 20px;
+}
+
+.section li {
+  margin: 4px 0 !important;
+}
 

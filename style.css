@@ -241,6 +241,12 @@ section {
   font-weight: 500;
   transition: all 0.2s ease;
 }
+.badge-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 
 .cert-pill:hover {
   background: #e5e7eb;

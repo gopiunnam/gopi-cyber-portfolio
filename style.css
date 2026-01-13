@@ -243,3 +243,55 @@ body{
 @media (max-width: 768px){
   .skills-2col{ grid-template-columns:1fr; }
 }
+/* ===== GLOBAL SPACING FIX ===== */
+
+/* Reduce section padding & gaps */
+.section{
+  padding: 16px 18px;
+  margin-top: 16px;
+}
+
+/* Main headings */
+.section h2{
+  margin: 0 0 8px 0;
+}
+
+/* Sub-headings */
+.section h3{
+  margin: 10px 0 6px 0;
+}
+
+/* Paragraphs */
+.section p{
+  margin: 6px 0;
+}
+
+/* Lists */
+.section ul{
+  margin: 6px 0;
+  padding-left: 18px;
+}
+
+.section li{
+  margin: 4px 0;
+}
+
+/* Certifications pills spacing */
+.cert-links{
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* Skills blocks spacing */
+.skills-2col{
+  gap: 14px 22px;
+}
+
+.skills-block h3{
+  margin-bottom: 6px;
+}
+
+.skills-block li{
+  margin: 4px 0;
+}
+

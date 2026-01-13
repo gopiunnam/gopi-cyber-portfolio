@@ -312,4 +312,53 @@ section {
 .section li {
   margin: 4px 0 !important;
 }
+.connect{
+  text-align: center;
+}
+
+.connect-title{
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.connect-subtitle{
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+.connect-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn{
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-outline{
+  border: 1px solid #cfd6e4;
+  background: #fff;
+  color: #0f172a;
+}
+
+.site-footer{
+  margin-top: 18px;
+  background: #111827;
+  color: white;
+  padding: 18px 12px;
+}
+
+.footer-inner{
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.9;
+}
 
